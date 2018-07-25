@@ -5,8 +5,10 @@
   static int binarySearch(int low, int high, int[] arr, int toFind) {
 		// if the left loop iterator moved ahead of the right pointer, it means we are checking outside the fragment of the array we need to
 		// so we terminate the iteration
+		/* not required in recursive approach
 		if(low > high )
 			return -1;
+		*/
 		
 		int middle = low + (high - low)/2 ;
 		
